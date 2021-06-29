@@ -1,10 +1,12 @@
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
 @import 'base/variables';
 @import 'blocks/container';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/advantages';
-@import 'blocks/button';
-
-* {
-    font-family: 'Museo Sans Cyrl', sans-serif;
-}
+@import 'blocks/consultation';
+@import 'blocks/buttons';
+@import 'blocks/forms';
