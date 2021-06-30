@@ -3,10 +3,12 @@
 }
 
 @import 'base/variables';
+@import 'blocks/buttons';
+@import 'blocks/forms';
 @import 'blocks/container';
+
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/advantages';
 @import 'blocks/consultation';
-@import 'blocks/buttons';
-@import 'blocks/forms';
+@import 'blocks/carousel';
