@@ -30,6 +30,7 @@
         text-decoration: none;
         &:hover {
             color: #FFFFFF;
+            text-shadow: 1px 1px 10px #FFFFFF;
         }  
     }
     &__social {
@@ -50,5 +51,9 @@
         img {
             height: 27px;
         }
+        &:hover {
+            box-shadow: 1px 1px 10px #FFFFFF;
+        }  
     }
 }
+// drop-shadow(<сдвиг по x> <сдвиг по y> <радиус размытия> <цвет>);

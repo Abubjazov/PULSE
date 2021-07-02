@@ -137,7 +137,8 @@
         text-decoration-line: underline;
         color: $main-color;
         &:hover {
-            color:  $main-color;
+            color: $main-color;
+            text-shadow: 1px 1px 10px #6B6B6B;
         }
     }
     hr {

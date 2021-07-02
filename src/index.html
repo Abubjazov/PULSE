@@ -62,7 +62,7 @@
 
                 <div class="promo__link">
                     или
-                    <a href="">перейти в каталог</a>
+                    <a href="#catalog">перейти в каталог</a>
                 </div>
 
             </div>
@@ -98,7 +98,7 @@
                         <img src="icons/shoe.png" alt="shoe">
                         Учим бегать
                         <div class="advantages__desc">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - 
-                        <a href="#">i love running.</a>
+                            <a href="#">i love running.</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
             <div class="consultation__header">Получите бесплатную консультацию<br>по подбору пульсометра</div>
             <div class="consultation__desc">Просто заполните форму заявки<br>и мы перезвоним вам в течении 10 минут</div>
             
-            <form class="feed-form" action="#">
+            <form id="consultation-form" class="feed-form feed-form_main" action="#">
 
                 <input name="name" required placeholder="Ваше имя"type="text">
                 <input name="phone" required placeholder="Ваш телефон"type="number">
@@ -152,7 +152,7 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="container">
 
             <div class="catalog__header">Каталог пульсометров</div>
@@ -794,10 +794,11 @@
 
     </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
     <!-- <script src="js/slick.min.js"></script> -->
     <script src="js/tiny-slider.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>
