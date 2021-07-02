@@ -19,27 +19,18 @@
         transition: 0.3s all;
         &:hover {
             border: none;
-            box-shadow: 1px 1px 10px #6B6B6B;
+            box-shadow: 1px 1px 10px #FFFFFF;
         }
     }
     &_mt25 {
         margin-top: 25px;
     }
-    &_main {
-        input {
-            &:hover {
-                border: none;
-                box-shadow: 1px 1px 10px #FFFFFF;
-            }
-        }
-        .error {
-            color: #FFFFFF;
-            box-shadow: 1px 1px 10px $main-color;
-        }
-        label.error {
-            box-shadow: none;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+    .error {
+        box-shadow: 1px 1px 10px $main-color;
+    }
+    label.error {
+        box-shadow: none;
+        margin-bottom: 20px;
+        text-align: center;
     }
 }

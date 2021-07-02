@@ -98,4 +98,6 @@ $(document).ready(function() {
   $('#consultation form').validate(validationDataSet);
   $('#order form').validate(validationDataSet);
 
+  $('input[name=phone]').mask('+9 (999) 999 99 99');
+
 });
