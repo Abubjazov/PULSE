@@ -69,4 +69,33 @@ $(document).ready(function() {
     });
   });
 
+  const validationDataSet = {
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      },
+      phone: "required",
+      email: {
+        required: true,
+        email:true
+      }
+    },
+    messages: {
+      name: {
+        required: "Пожалуйста введите своё имя",
+        minlength: jQuery.validator.format("Введите не менее {0} символов!")
+      },
+      phone: "Пожалуйста введите свой телефон",
+      email: {
+        required: "Нам необходим ваш email",
+        email: "Ваш email должен быть формата name@domain.com"
+      }
+    }
+  };
+
+  $('#consultation-form').validate(validationDataSet);
+  $('#consultation form').validate(validationDataSet);
+  $('#order form').validate(validationDataSet);
+
 });
