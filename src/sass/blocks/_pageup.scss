@@ -1,0 +1,12 @@
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 25px;
+    height: 25px;
+    transform: rotate(90deg);
+    img {
+        width: 100%;
+    }
+}
