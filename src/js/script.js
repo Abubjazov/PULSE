@@ -101,6 +101,9 @@ $(document).ready(function() {
   $('input[name=phone]').mask('+9 (999) 999 99 99');
 
   $('form').submit(function(e) {
+    $('#consultation-form').validate(validationDataSet);
+    $('#consultation form').validate(validationDataSet);
+    $('#order form').validate(validationDataSet);
     e.preventDefault();
     $.ajax({
       type: "POST",
@@ -124,7 +127,7 @@ $(document).ready(function() {
   });
 
   $("a[href^='#']").click(function() {
-    var _href = $(this).attr("href");
+    const _href = $(this).attr("href");
     $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
     return false;
   });

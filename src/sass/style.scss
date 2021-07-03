@@ -1,14 +1,11 @@
+@import 'base/variables';
+@import 'base/animations';
+
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 @import 'blocks/container';
-@import 'base/variables';
-@import 'blocks/buttons';
-@import 'blocks/forms';
-@import 'blocks/modal';
-@import 'blocks/pageup';
-
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/advantages';
@@ -18,3 +15,7 @@
 @import 'blocks/reviews';
 @import 'blocks/footer';
 
+@import 'blocks/buttons';
+@import 'blocks/forms';
+@import 'blocks/modal';
+@import 'blocks/pageup';
