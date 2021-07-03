@@ -124,6 +124,12 @@ $(document).ready(function() {
     } else {
       $('.pageup').fadeOut();
     }
+
+  //   if($(this).scrollTop( ) > 3300) {
+  //     $('.reviews__item').fadeIn();
+  //   } else {
+  //     $('.reviews__item').fadeOut();
+  //   }
   });
 
   $("a[href^='#']").click(function() {
@@ -132,4 +138,6 @@ $(document).ready(function() {
     return false;
   });
 
+  new WOW().init();
+  
 });
