@@ -124,15 +124,9 @@ $(document).ready(function() {
     } else {
       $('.pageup').fadeOut();
     }
-
-  //   if($(this).scrollTop( ) > 3300) {
-  //     $('.reviews__item').fadeIn();
-  //   } else {
-  //     $('.reviews__item').fadeOut();
-  //   }
   });
 
-  $("a[href^='#']").click(function() {
+  $("a[href='#up']").click(function() {
     const _href = $(this).attr("href");
     $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
     return false;
