@@ -8,5 +8,8 @@
     transform: rotate(90deg);
     img {
         width: 100%;
+        &:hover {
+            filter: drop-shadow(1px 1px 10px #6B6B6B);
+        }
     }
 }
