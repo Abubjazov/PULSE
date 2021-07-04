@@ -52,6 +52,7 @@
             height: 27px;
         }
         &:hover {
+            filter: drop-shadow(1px 1px 10px #FFFFFF);
             box-shadow: 1px 1px 10px #FFFFFF;
         }  
     }
